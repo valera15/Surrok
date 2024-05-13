@@ -8,7 +8,7 @@ win.geometry("960x600+1+0")
 win.resizable(False, False) # не меняется размер экрана
 win.wm_attributes("-topmost", 1) # приложение поверх всех окон
 win.bind("<Escape>", lambda event: win.destroy()) # event - событие, destroy - закрыть
-
+#####
 
 
 
